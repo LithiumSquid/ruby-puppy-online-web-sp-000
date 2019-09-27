@@ -8,7 +8,7 @@ class Dog
     save
   end
   
-  def self.save
+  def save
     @@all << self
   end
   
@@ -20,7 +20,7 @@ class Dog
     @@all.each{|x| puts x}
   end
   
-  def self.clear_all
+  def clear_all
     @@all.clear
   end
   
