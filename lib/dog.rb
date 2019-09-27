@@ -13,7 +13,7 @@ class Dog
   end
   
   def self.all
-    @@all.each{|x| 
+    @@all
   end
   
   def self.print_all
